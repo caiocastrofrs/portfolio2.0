@@ -1,0 +1,61 @@
+@media (min-width: 768px) 
+{   
+
+    .div-bio
+    {
+        padding-top:50px;
+    }
+    body 
+    {
+        font-size: 20px;
+    }
+    .info-container img,
+    .social-container img
+    {
+        width:64px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .header-container a 
+    {
+        text-align: center;
+        display:block;
+        margin: 10px 150px 20px;
+        padding:10px;
+    }
+    .header-container a:hover
+    {
+        background-color: white;
+        color:#0B0406;
+        border: none;
+        transform: translateY(-5%);
+    }
+    .info-container
+    {
+        border-radius:7px;
+        justify-content: center;
+        width:500px;
+        height: 606px;
+    }
+    .projeto-container
+    {
+        color: white;
+        width:1000px;
+        background-color: rgba(255,255,255,0);
+    }
+    .projetos-flow
+    {
+        gap:30px;
+    }
+    ::-webkit-scrollbar
+    {
+        height:20px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background-color: #E2E7ED;
+        border-radius: 10px;
+    }
+}

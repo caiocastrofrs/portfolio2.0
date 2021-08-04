@@ -1,0 +1,186 @@
+/*=================================HEADER=================================*/
+body
+{
+    background-color: #0B0406;
+}
+.header-container
+{
+    padding:25px;
+    max-width: 100%;
+}
+.header-container li
+{
+    margin:10px;
+    font-weight: bold;
+}
+.header-container a 
+{
+    font-size:1.5rem;
+    color: #E2E7ED;
+}
+.header-container ul
+{
+    text-align: center;
+}
+/*=================================HEADER=================================*/
+
+/*=================================MAIN-CONTAINER=================================*/
+/*=================================APRESENTACAO-CONTAINER=================================*/
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.div-logo img,
+.div-bio
+{
+    border-radius:7px;
+}
+.apresentacao-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10px 250px;
+    margin:15px;
+    max-width: 400px;
+}
+.div-foto
+{
+    transform: translateY(-800%);
+    text-align: center;
+}
+.div-foto img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #E2E7ED;
+}
+.div-bio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+.div-bio p
+{
+    text-align: center;
+    padding: 0 35px 0;
+}
+/*=================================INFO-CONTAINER=================================*/
+.info-container
+{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    align-items: center;
+    max-width: 100%;
+    padding:5px;
+    width:100%;
+}
+.div-formacao
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+}
+.info-container *
+{
+    margin:5px;
+}
+.div-formacao,
+.div-skills,
+.div-hobbies
+{
+    text-align: center;
+}
+/*=================================PROJETO-CONTAINER=================================*/
+.projeto-container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:25px;
+    width:100%;
+    padding-top:10px;
+}
+.projetos-flow
+{
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.div-projeto
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 20px 20 0px 60px;
+    gap:5px;
+    min-width: 100%;
+    
+}
+.div-projeto p
+{
+    padding:15px;
+}
+.div-botao button
+{
+    border: none;
+    background-color: #E2E7ED;
+    box-shadow: 1px 2px 5px #0B0406;
+    margin:10px;
+    border-radius: 7px;
+    width:120px;
+    height:50px;
+    cursor: pointer;
+}
+.div-botao button:hover
+{
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+/*=================================SOCIAL-CONTAINER=================================*/
+.social-container
+{
+    text-align: center;
+    width:100%;
+}
+.social-container * 
+{
+    margin:10px;
+}
+/*=================================FOOTER=================================*/
+footer 
+{
+    text-align: center;
+    padding:15px;
+    font-size: 0.9rem;
+}
+/* ESTILIZAÇÕES GERAIS*/
+.div-bio,
+.info-container,
+.projeto-container,
+.social-container,
+footer
+{
+    background-color: #E2E7ED;
+    color:#0B0406;
+}
+.header-container li,
+.info-container li,
+.social-container li
+{
+    display: inline-block;
+    margin: 0 10px 0;
+}
+.info-container img,
+footer img,
+.social-container img
+{
+    width:32px;
+}
