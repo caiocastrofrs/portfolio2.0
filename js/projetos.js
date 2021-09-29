@@ -61,44 +61,42 @@ var projetos = [
         descricao: "Esse é meu projeto mais desenvolvido. Nele consegui utilizar todo meu conhecimento em HTML & CSS e principalmente DOM. É um projeto avaliativo do curso da Digital House, o objetivo era criar um site que possa adicionar cards na página. Meu tema escolhido foi filmes.",
         gitPage: "https://caiocastrofrs.github.io/CheckpointIndividual/",
         gitRepo: "https://github.com/caiocastrofrs/CheckpointIndividual"
+    },
+    {
+        urlImg: "./img/print-sites/todo-checkpoint.png",
+        titulo: "To-Do Checkpoint",
+        descricao: "Segundo checkpoint avaliativo do curso da Digital House. O objetivo é fazer um site de To-Do, onde o usuário pode escrever suas tarefas e como saída terá sua atividade salva em localStorage e também a data criada da tarefa. O maior diferencial desse checkpoint foi o requisito de consumir uma API, e é a primeira vez que faço algo do tipo.Obs: A Api é apenas os dados na página 'API'",
+        gitPage: "https://caiocastrofrs.github.io/ToDo_Checkpoint/",
+        gitRepo: "https://github.com/caiocastrofrs/ToDo_Checkpoint"
+    },
+    {
+        urlImg: "./img/print-sites/slider-animacoes.png",
+        titulo: "Exercício da aula 22",
+        descricao: "Exercício pedido em sala de aula. Basicamente era para desenvolvermos algumas funções que alterasse diretamente o CSS de algus elementos. Foi bem divertido.",
+        gitPage: "https://caiocastrofrs.github.io/CheckpointIndividual/",
+        gitRepo: "https://github.com/caiocastrofrs/CheckpointIndividual"
     }
 ];
 
 projetos.forEach(projeto => {
-    let listaProjetos = document.getElementById('listaProjetos');
-    let divProjeto = document.createElement('div');
-    let divImg = document.createElement('div');
-    let img = document.createElement('img');
-    let tituloH3 = document.createElement('h3');
-    let descricaoP = document.createElement('p');
-    let divBotoes = document.createElement('div');
-    let btnGitPage = document.createElement('button');
-    let btnGitRepo = document.createElement('button');
-    let linkGitPage = document.createElement('a');
-    let linkGitRepo = document.createElement('a');
-    divProjeto.classList.add('div-projeto');
-    divImg.classList.add('img-projeto');
-    divBotoes.classList.add('div-botao');
-
-    img.src = projeto.urlImg;
-    tituloH3.innerText = projeto.titulo;
-    descricaoP.innerText = projeto.descricao;
-    btnGitPage.innerHTML = "GitPage";
-    btnGitRepo.innerHTML = "Repositório";
-    linkGitPage.href = projeto.gitPage;
-    linkGitRepo.href = projeto.gitRepo;
-
-
-    divImg.appendChild(img);
-    linkGitPage.appendChild(btnGitPage);
-    linkGitRepo.appendChild(btnGitRepo);
-    divBotoes.appendChild(linkGitPage);
-    divBotoes.appendChild(linkGitRepo);
-    
-    divProjeto.appendChild(divImg);
-    divProjeto.appendChild(tituloH3);
-    divProjeto.appendChild(descricaoP);
-    divProjeto.appendChild(divBotoes);
-    
-    listaProjetos.appendChild(divProjeto);
+    let bpProjeto = 
+    `
+    <div class="div-projeto">
+        <div class="img-projeto">
+            <img src="${projeto.urlImg}">
+        </div>
+        <h3>${projeto.titulo}</h3>
+        <p>${projeto.descricao}</p>
+        <div class="div-botao">
+            <a href="${projeto.gitPage}">
+                <button>GitPage</button>
+            </a>
+            <a href="${projeto.gitRepo}">
+                <button>Repositório</button>
+            </a>
+        </div>
+    </div>
+    `
+    listaProjetos.innerHTML += bpProjeto;
 });
+ 
