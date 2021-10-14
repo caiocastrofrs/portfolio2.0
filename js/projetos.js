@@ -10,8 +10,8 @@ var projetos = [
         urlImg: "./img/print-sites/social-proof.png",
         titulo: "Social Proof",
         descricao: "Social Proof foi um desafio do site Frontend Mentor que o objetivo é replicar o site dado. Eu consegui completar a maior parte, exceto a responsividade, que é um topico bem importante mas ainda não tenho o conhecimento necessário. O site está sujeiro à mudanças.",
-        gitPage: "https://caiocastrofrs.github.io/site-social-proof-projeto/",
-        gitRepo: "https://github.com/caiocastrofrs/site-social-proof-projeto"
+        gitPage: "https://caiocastrofrs.github.io/FrontendMentor-socialProof/",
+        gitRepo: "https://github.com/caiocastrofrs/FrontendMentor-socialProof"
     },
     {
         urlImg: "./img/print-sites/avaliacao.png",
@@ -38,22 +38,22 @@ var projetos = [
         urlImg: "./img/print-sites/frontend-mentor-cards.png",
         titulo: "3-column preview card component",
         descricao: "Projeto feito como desafio do site Front-end Mentor Gostei muito de fazê-lo pois me desafiei a trabalhar com os medias queries, que ainda é uma novidade para mim.",
-        gitPage: "https://caiocastrofrs.github.io/site-carros/",
-        gitRepo: "https://github.com/caiocastrofrs/site-carros"
+        gitPage: "https://github.com/caiocastrofrs/FrontendMentor-Cars",
+        gitRepo: "https://caiocastrofrs.github.io/FrontendMentor-Cars/"
     },
     {
         urlImg: "./img/print-sites/frontend-mentor-business.png",
         titulo: "Business",
         descricao: "Projeto feito como desafio do site Front-end Mentor. Desafio excelente para estudar flexbox e grid layout. O momento mais díficil foi deixar a imagem roxa, eu sinto que fui pelo caminho mais dificil.",
-        gitPage: "https://caiocastrofrs.github.io/site-business/",
-        gitRepo: "https://github.com/caiocastrofrs/site-business"
+        gitPage: "https://caiocastrofrs.github.io/FrontendMentor-Business/",
+        gitRepo: "https://github.com/caiocastrofrs/FrontendMentor-Business"
     },
     {
         urlImg: "./img/print-sites/site-order.png",
         titulo: "Order",
         descricao: "Desafio do Frontend Mentor para fixar conteúdo de HTML & CSS.",
-        gitPage: "https://caiocastrofrs.github.io/site-order/",
-        gitRepo: "https://github.com/caiocastrofrs/site-order"
+        gitPage: "https://caiocastrofrs.github.io/FrontendMentor-Order/",
+        gitRepo: "https://github.com/caiocastrofrs/FrontendMentor-Order"
     },
     {
         urlImg: "./img/print-sites/dhfilmes.png",
@@ -73,8 +73,15 @@ var projetos = [
         urlImg: "./img/print-sites/slider-animacoes.png",
         titulo: "Exercício da aula 22",
         descricao: "Exercício pedido em sala de aula. Basicamente era para desenvolvermos algumas funções que alterasse diretamente o CSS de algus elementos. Foi bem divertido.",
-        gitPage: "https://caiocastrofrs.github.io/CheckpointIndividual/",
-        gitRepo: "https://github.com/caiocastrofrs/CheckpointIndividual"
+        gitPage: "https://caiocastrofrs.github.io/Exercicio-FrontEnd2/",
+        gitRepo: "https://github.com/caiocastrofrs/Exercicio-FrontEnd2"
+    },
+    {
+        urlImg: "./img/print-sites/profile-card.png",
+        titulo: "Profile Card",
+        descricao: "Desafio do site Frontend Mentor.Interessante criar esses cards, ensina bastante.",
+        gitPage: "https://github.com/caiocastrofrs/FrontendMentor-ProfileCard",
+        gitRepo: "https://caiocastrofrs.github.io/FrontendMentor-ProfileCard/"
     }
 ];
 
